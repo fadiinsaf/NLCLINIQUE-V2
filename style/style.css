@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+/*Header*/
+
+header{
+    position: absolute;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;   
+}
+
+/*Header*/
+
+/* HERO*/
+
+.herobg img{
+    width: 100%;
+    position: relative;
+    z-index: -99;
+}
+
+.redpoint img{
+    position:absolute;
+    z-index: 16;
+    bottom: 87%;
+    left: 33.5%;
+    
+}
+
+.houricon img{
+    position:absolute;
+    bottom: -6%;
+    left: 6%;
+}
+
+.doctor img{
+    position: absolute;
+    width: 45%;
+    left: 46%;
+    top: 20%;
+} 
+
+.text1{
+color: white;
+position: absolute;
+z-index: 11;
+left: 6%;
+top: 20%;
+background: #2ecc709a;
+border: 3px solid #2ecc70;
+border-radius:1em 1em 0em 1em;
+padding: 1% 4%;
+
+}
+
+.text2 pre{
+    position:absolute;
+    z-index: 12;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    left: 6%;
+    top: 35%;
+    font-size: 250%;
+}
+
+.text3 pre{
+    position:absolute;
+    z-index: 12;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    left: 6%;
+    top: 55%;
+    font-size: 120%;
+}
+
+/* HERO*/
+
+/* menu*/
+.menu  ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-family: "Heebo", sans-serif;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(226, 224, 224);
+
+}
+
+.menu{
+    position: relative;
+    left: 3%;
+}
+/* menu*/
+
+/*search*/
+.search input{
+    background: transparent;
+    border: 1px solid rgb(226, 224, 224);
+    border-radius: 12px;
+    padding: 12px 40px;
+    
+}
+.search{
+    position: relative;
+    left: 2%;
+}
+
+#magnifying{
+    position: absolute;
+    color:rgb(226, 224, 224);
+    left: 1.5%;
+    top: 27%;
+}
+
+.search input::placeholder{
+    color: rgb(226, 224, 224);
+    font-size: 1.1em;
+}
+/*search*/
+
+
+
+
