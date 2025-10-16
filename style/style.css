@@ -4,8 +4,6 @@
     box-sizing: border-box;  
 }
 
-/*Header*/
-
 header{
     position: absolute;
     display: flex; 
@@ -14,74 +12,7 @@ header{
     width: 100%;   
 }
 
-/*Header*/
 
-/* HERO*/
-
-.herobg img{
-    width: 100%;
-    position: relative;
-    z-index: -99;
-}
-
-.redpoint img{
-    position:absolute;
-    z-index: 16;
-    bottom: 87%;
-    left: 33.5%;
-    
-}
-
-.houricon img{
-    position:absolute;
-    bottom: -6%;
-    left: 6%;
-}
-
-.doctor img{
-    position: absolute;
-    width: 45%;
-    left: 46%;
-    top: 20%;
-} 
-
-.text1{
-color: white;
-position: absolute;
-z-index: 11;
-left: 6%;
-top: 20%;
-background: #2ecc709a;
-border: 3px solid #2ecc70;
-border-radius:1em 1em 0em 1em;
-padding: 1% 4%;
-
-}
-
-.text2 pre{
-    position:absolute;
-    z-index: 12;
-    color: white;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: bold;
-    left: 6%;
-    top: 35%;
-    font-size: 250%;
-}
-
-.text3 pre{
-    position:absolute;
-    z-index: 12;
-    color: white;
-    font-family: "Heebo", sans-serif;
-    left: 6%;
-    top: 55%;
-    font-size: 120%;
-}
-
-/* HERO*/
-
-/* menu*/
 .menu  ul{
     display: flex;
     gap: 30px;
@@ -99,9 +30,7 @@ padding: 1% 4%;
     position: relative;
     left: 3%;
 }
-/* menu*/
 
-/*search*/
 .search input{
     background: transparent;
     border: 1px solid rgb(226, 224, 224);
@@ -125,8 +54,273 @@ padding: 1% 4%;
     color: rgb(226, 224, 224);
     font-size: 1.1em;
 }
-/*search*/
+
+/*Header*/
+
+/* HERO*/
+
+.herobg img{
+    width: 100%;
+    position: relative;
+    z-index: -99;
+}
+
+.redpoint img{
+    position:absolute;
+    z-index: 16;
+    bottom: 87%;
+    left: 33.5%;
+}
+
+.button1 button{
+    position: absolute;
+    bottom: 24%;
+    left: 5.5%;
+    background: #FF6F61;
+    padding: 1.1% 3%;
+    border: 0px solid;
+    border-radius: 2em;
+}
+
+.arrowicon1 img{
+    position: absolute;
+    bottom: 25.55%;
+    left: 16.7%;
+    width: 2.4%;
+}
+
+.button1 span{
+    position: relative;
+    right: 15%;
+    font-family: "Heebo", sans-serif;
+    color: white;
+}
+
+.text6 p{
+    position: absolute;
+    bottom: 27.5%;
+    left: 22.1%;
+    font-size: 0.8em;
+    color: white;
+}
+
+.button2 button{
+    position: absolute;
+    bottom: 24%;
+    left: 25%;
+    background: transparent;
+    padding: 1.1% 2%;
+    border: white 1px solid;
+    border-radius: 2em;
+    
+}
+.button2 span{
+    font-weight:bold ;
+    font-family: "Heebo", sans-serif;
+    color: white;
+}
+
+.houricon img{
+    position:absolute;
+    bottom: -5%;
+    left: 6%;
+    width: 6%;
+
+}
+
+.text4 p{
+    position: absolute;
+    font-family: "Heebo", sans-serif;
+    color: white;
+    bottom: 3.9%;
+    left: 13.5%;
+}
+.text5 pre{
+    position: absolute;
+    font-family: "Heebo", sans-serif;
+    color: white;
+    bottom: -7%;
+    font-size: 0.85em;
+    left: 13.5%;
+}
+
+.text1 p{
+font-family: "Heebo", sans-serif;
+color: white;
+position: absolute;
+z-index: 11;
+left: 6%;
+top: 20%;
+background: #2ecc709a;
+border: 3px solid #2ecc70;
+border-radius:1em 1em 0em 1em;
+padding: 1% 4%;
+font-weight: bold;
+
+}
 
 
+.text2 pre{
+    position:absolute;
+    z-index: 12;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    left: 6%;
+    top: 35%;
+    font-size: 250%;
+}
 
+.text3 pre{
+    position:absolute;
+    z-index: 12;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    left: 6%;
+    top: 55%;
+    font-size: 120%;
+}
+
+.doctor img{
+    position: absolute;
+    width: 30%;
+    left: 53%;
+    top: 17%;
+} 
+
+ .checkavalaibilty
+ {
+    position: absolute;
+    top: 64.7%;
+    left: 44.5%;
+    width: 600px;
+    height: 260px;
+    background: white;
+    border: 0px solid;
+    border-radius: 1em 1em 0 0;
+
+ }
+ .row{
+    display: flex;
+    position: absolute;
+    left: 6%;
+    top: 15%;
+    gap: 1em;
+ }
+ .row select{
+    background: transparent;
+    border: 1px solid rgb(226, 224, 224);
+    border-radius: 12px;
+    padding: 13px 80px;
+ }
+ .row select{
+    color: #969696;
+    font-family: "Heebo", sans-serif;
+ }
+
+ .column{
+    display: flex;
+    position: absolute;
+    left: 5.6%;
+    top: 46%;
+    gap: 1em;
+ }
+ .column select{
+    background: transparent;
+    border: 1px solid rgb(226, 224, 224);
+    border-radius: 12px;
+    padding: 13px 103.5px;
+ }
+ .column select{
+    color: #969696;
+    font-family: "Heebo", sans-serif;
+ }
+
+ .submit input{
+    position: absolute;
+    bottom: 16%;
+    left: 36%;
+    color: white;
+    background: #FF6F61;
+    font-family: "Heebo", sans-serif;
+    padding: 1.1% 1%;
+    border: 0px solid;
+    border-radius: 1em;
+}
+ 
+#line1{
+    position: absolute;
+    top: 79%;
+    left: 6%;
+}
+
+#line2{
+    position: absolute;
+    top: 79%;
+    left: 66%;
+}
+ .formicon1 img{
+    position:absolute;
+    width: 3.5%;
+    top: 20%;
+    left: 14%;
+ }
+
+  .formicon2 img{
+    position:absolute;
+    width: 3.5%;
+    top: 20%;
+    left: 59.5%;
+ }
+
+ .formicon3 img{
+    position:absolute;
+    width: 3.5%;
+    top: 51.5%;
+    left: 14%;
+ }
+
+ .formicon4 img{
+    position:absolute;
+    width: 3.5%;
+    top: 51.5%;
+    left: 59.5%;
+ }
+
+/* HERO*/
+
+/*SECTION*/
+.elementsimg1{
+    position: relative;
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    margin-left: 9em;
+    margin-bottom: 5em;
+    
+}
+
+.elementsimg1 img{
+    width: 60%;
+    
+}
+
+/*SECTION*/
+
+/* ABOUT US */
+
+.aboutbg img{
+    width: 100%;
+}
+/* ABOUT US */
+
+/*SECTION*/
+/*SECTION*/
+
+/*SERVICES*/
+ 
+.serbg img{
+    width: 100%;
+}
+/*SERVICES*/
 
