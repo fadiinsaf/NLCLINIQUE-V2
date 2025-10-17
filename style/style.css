@@ -162,11 +162,7 @@ color: white;
 font-weight: bold;
 font-size: 1.2em;
 letter-spacing: 3px;
-
-
-
 }
-
 
 .text2 pre{
     position:absolute;
@@ -493,6 +489,10 @@ height: 48px;
     left: 5%;
 }
 
+/* ABOUT US */
+
+/*SECTION STATICS*/
+
 .stat{
     position: relative;
     margin-top:1em;
@@ -514,7 +514,7 @@ height: 48px;
 
 .statdes2{
     position: relative;
-    left: 24%;
+    left: 25%;
     color: #313131;
     font-family: "Heebo", sans-serif;
     font-size: 1EM;
@@ -536,17 +536,208 @@ height: 48px;
     font-size: 1EM;
 }
 
+.statics{
+    margin-bottom: 5em;
+}
 
-
-/* ABOUT US */
-
-/*SECTION*/
-/*SECTION*/
+/*SECTION STATICS*/
 
 /*SERVICES*/
  
 .serbg img{
     width: 100%;
 }
+.servecies{
+    position:relative;
+}
+
+.ourser{
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    background: #5EE088;
+    border: 2px solid  #2ECC71;
+    border-radius:1em 1em 0em 1em;
+    padding: 1% 0%;
+    width: 141px;
+    height: 48px;
+}
+
+.ourser p{
+    position: relative;
+    left: 14%;
+    font-size: 0.9EM;
+    color: white;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+}
+
+.textlar p{
+    position: absolute;
+    top: 13%;
+    left: 8%;
+    width: 15EM;
+    font-size: 2EM;
+    font-weight: bold;
+    color: #3498DB;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+ .textsh p{
+    position: absolute;
+    width: 25em;
+    top: 13%;
+    left:65%;
+    color: black;
+    font-family: "Heebo", sans-serif;
+    font-size: 0.9EM;
+ }
+
+ .card1{
+    width: 340px;
+    height: 340px;
+    background: white;
+    border-radius: 2EM;
+
+ }
+
+ .card2{
+    width: 340px;
+    height: 340px;
+    background: white;
+    border-radius: 2EM;
+
+ }
+
+ .card3{
+    width: 340px;
+    height: 340px;
+    background: white;
+    border-radius: 2EM;
+
+ }
+
+ .card4{
+    width: 340px;
+    height: 340px;
+    background: white;
+    border-radius: 2EM;
+
+ }
+
+ .card5{
+    width: 340px;
+    height: 340px;
+    background: white;
+    border-radius: 2EM;
+
+ }
+
+ .card6{
+    width: 340px;
+    height: 340px;
+    background: white;
+    border-radius: 2EM;
+
+ }
+
+ .cardrow1{
+    position: absolute;
+    top: 22%;
+    left:7.5%;
+    display: flex;
+    gap: 2EM;
+ }
+
+ .cardrow2{
+    position: absolute;
+    display: flex;
+    top: 55%;
+    left:7.5%;
+    gap: 2EM;
+ }
+
+.cardtop img{
+    position: relative;
+    left: 10%;
+    top: 1.4EM;
+    width: 17%;
+}
+
+.cardtop .number p{
+    position: relative;
+    left: 3.8EM;
+    bottom: 0.65EM;
+    color: #D6F6FD;
+    font-weight: bold;
+    font-size: 4EM;
+    font-family: "IBM Plex Sans", sans-serif;
+    width: 20PX;
+}
+
+.texttop p{
+    position: relative;
+    left: 1.5EM;
+    bottom: 2EM;
+    font-size: 1.18EM;
+    font-weight: bold;
+    color: #3498DB;
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+.textbott p{
+    position: relative;
+    left: 1.5EM;
+    color: #5B5B5B;
+    font-family: "Heebo", sans-serif;
+    font-size: 1EM;
+}
+
+.buttonmore button{
+    position: relative;
+    left: 1.2EM;
+    background: transparent;
+    padding: 4% 12%;
+    border: #FF6F61 1px solid;
+    border-radius: 2em;
+}
+
+.buttonmore img{
+    position: relative;
+    top: 2.2EM;
+    left: 9.5EM;
+}
+
+.buttonmore button span{
+    position: relative;
+    right: 1.3em;
+    letter-spacing: 2px;
+    color: #FF6F61;
+}
+
+.servicesbottom button{
+    position: absolute;
+    bottom: 10%;
+    left: 41.8%;
+    background: #FF6F61;
+    padding: 1.1% 3%;
+    border: 0px solid;
+    border-radius: 2em;
+}
+
+.servicesbottom span{
+    position: relative;
+    right: 15%;
+    font-size: 1.4EM;
+    font-family: "Heebo", sans-serif;
+    color: white;
+}
+
+.servicesbottom img{
+    position: absolute;
+    bottom: 10.6%;
+    left: 56%;
+}
+
 /*SERVICES*/
 
