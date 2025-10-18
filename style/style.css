@@ -779,9 +779,9 @@ header {
     font-family: "Heebo", sans-serif;
 }
 .doctorstop .toptext pre{
-    position: absolute;
-    top: 13%;
-    left: 8%;
+    position: relative;
+    top: 4.6EM;
+    left: 40%;
     width: 15EM;
     font-size: 2EM;
     font-weight: bold;
@@ -791,26 +791,89 @@ header {
 
 
 .doctor1 , .doctor2 , .doctor3 , .doctor4 , .doctor5 , .doctor6{
-    width: 380px;
-    height: 562px;
+    width: 320px;
+    height: 425px;
     background: #F5F8FA;
     border-radius: 2EM;
 } 
 
-/* .docrow1{
-    position: absolute;
+.docrow1{
+    position: relative;
+    top: 14EM;
     display: flex;
-    top: 55%;
-    left: 7.5%;
+    justify-content: center;
     gap: 2EM;
+
 }
 
 .docrow2{
-    position: absolute;
+    position: relative;
+    top: 15.5EM;
     display: flex;
-    top: 55%;
-    left: 7.5%;
+    justify-content: center;
     gap: 2EM;
-} */
+}
+
+.doctors img{
+    position: relative;
+    left: 3.5EM;
+    width: 60%;
+}
+
+.doctorname p{
+    position: relative;
+    left: 22%;
+    font-size: 1.6EM;
+    font-weight: bold;
+    color: #3498DB;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.lastname p{
+    position: relative;
+    top: 0.8EM;
+    left: 34%;
+    font-size: 1.2Em;
+    color: #FF6F61;
+}
+
+.dicription pre{
+    position: relative;
+    top: 2EM;
+    left: 9%;
+    color: #5B5B5B;
+    font-family: "Heebo", sans-serif;
+    font-size: 1EM;
+}
+
+.doctor1 img, .doctor2 img{
+    width: 74%;
+}
+
+.docbutton button {
+    position: relative;
+    top: 22EM;
+    left: 41.8%;
+    background: #FF6F61;
+    padding: 1.1% 3%;
+    border: 0px solid;
+    border-radius: 2em;
+}
+
+.docbutton span {
+    position: relative;
+    right: 15%;
+    font-size: 1.4EM;
+    font-family: "Heebo", sans-serif;
+    color: white;
+}
+
+.docbutton img {
+    position: relative;
+    top: 15.35EM;
+    left: 41.8%;
+    bottom: 10.6%;
+    left: 56%;
+}
 
 /*DOCTORS*/
