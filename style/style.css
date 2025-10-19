@@ -874,6 +874,62 @@ header {
     left: 41.8%;
     bottom: 10.6%;
     left: 56%;
+    margin-bottom: 23em;
 }
 
 /*DOCTORS*/
+
+/*LABO MAN*/
+
+.laboman img{
+    position: relative;
+    left: 2.7em;
+    width: 93%;  
+}
+
+.labotext1 pre{
+    position: relative;
+    bottom: 8.5em;
+    left: 3em;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    font-size: 280%;
+    width: 20EM;
+}
+
+.labotext2{
+    position: relative;
+    bottom: 20.5em;
+    left: 7.6em;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    font-size: 1.1em;
+    width: 28EM;
+}
+
+.labobutton button {
+    position: relative;
+    bottom: 24em;
+    left: 10em;
+    background: #E3FAFF;
+    padding: 1.1% 3%;
+    border: 0px solid;
+    border-radius: 2em;
+}
+
+.labobutton span {
+    position: relative;
+    right: 15%;
+    font-size: 1.4EM;
+    font-family: "Heebo", sans-serif;
+    color: #2677BC;
+}
+
+.labobutton img{
+    position: relative;
+    bottom: 22.8em;
+    left: 28.5%;
+}
+
+/*LABO MAN*/
