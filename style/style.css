@@ -933,3 +933,237 @@ header {
 }
 
 /*LABO MAN*/
+
+/*PLAN*/
+
+.pricing {
+    position: relative;
+    bottom: 8EM;
+    left: 5%;
+    background: #5EE088;
+    border: 2px solid #2ECC71;
+    border-radius: 1em 1em 0em 1em;
+    padding: 1% 0%;
+    width: 141px;
+    height: 48px;
+}
+
+.pricing p {
+    position: relative;
+    left: 28%;
+    font-size: 0.9EM;
+    color: white;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+}
+
+.plantext1 pre {
+    position: relative;
+    bottom: 3EM;
+    left: 5%;
+    width: 15EM;
+    font-size: 2EM;
+    font-weight: bold;
+    color: #3498DB;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.plantext2 p {
+    position: relative;
+    width: 25em;
+    bottom: 11.5EM;
+    left: 68%;
+    color: black;
+    font-family: "Heebo", sans-serif;
+    font-size: 0.9EM;
+}
+
+.joinroom , .vip , .vvip{
+    width: 380px;
+    height: 760px;
+    border: #E1E1E1 2px solid;
+    border-radius: 2em;
+}
+
+.choices{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 8em;
+    gap: 1EM;
+}
+
+.choicetop .tittle{
+    position: relative;
+    top: 1em;
+    left: 1em;
+    margin-bottom: 2em;
+    color: #2677BC;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.choicetext{
+    position: relative;
+    left: 1.9EM;
+    color: #5B5B5B;
+    font-family: "Heebo", sans-serif;
+    font-size: 0.8EM;
+    width: 24EM;
+}
+
+.price{
+    position: relative;
+    top: 0.4em;
+    left: 0.4EM;
+    color: #3498DB;
+    font-size: 3.5EM;
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+.price sub{
+    position: relative;
+    left: 0.3em;
+    bottom: 0.3em;
+    color: #969696;
+    font-weight: lighter;
+    font-size: 0.5EM;
+}
+
+.choiceline img{
+    position: relative;
+    top: 2EM;
+    left: 2.3em;
+    margin-bottom: 3em;
+    width: 80%;
+}
+
+.choicetext1{
+    position: relative;
+    top: 0.4em;
+    left: 1.4EM;
+    color: #3498DB;
+    font-size: 1.4em;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.features{
+    position: relative;
+    top: 2EM;
+    left: 1.9em;
+    margin-bottom: 5EM;
+}
+
+.features ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    list-style: none;
+}
+
+.features img{
+    position: relative;
+    top: 0.21EM;
+    width: 6%;
+    margin-right: 0.5EM;
+}
+
+.features span{
+    color: #5B5B5B;
+    font-family: "Heebo", sans-serif;
+    font-size: 1.4EM;
+    
+}
+
+.choicebutton1 button{
+    position: relative;
+    left: 1.45EM;
+    background: transparent;
+    padding: 4% 22%;
+    border: #FF6F61 1px solid;
+    border-radius: 2em;
+}
+
+.downarrow img{
+    position: relative;
+    top: 2.4em;
+    left: 16.5EM;
+
+}
+
+.choicebutton1 button span {
+    position: relative;
+    right: 1.3em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #FF6F61;
+    font-family: "Heebo", sans-serif;
+}
+
+
+.choicebutton2 button{
+    position: relative;
+    left: 1.45EM;
+    background: #FF6F61;
+    padding: 4% 30%;
+    border-radius: 2em;
+    border: transparent;
+}
+
+.versarrow img{
+    position: relative;
+    z-index: 13;
+    top: 2.4em;
+    left: 14.5EM;
+
+}
+
+.choicebutton2 button span {
+    position: relative;
+    right: 1.3em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Heebo", sans-serif;
+}
+
+.or{
+    position: relative;
+    color: #5B5B5B;
+    top: 0.6em;
+    left: 10.6em;
+    font-family: "Heebo", sans-serif;
+    font-size: 1.1 EM;
+    width: 5EM;
+
+}
+
+
+.seemoreplans button {
+    position: relative;
+    bottom: 6em;
+    left: 41.8%;
+    background: #FF6F61;
+    padding: 1.1% 3%;
+    border: 0px solid;
+    border-radius: 2em;
+}
+
+.seemoreplans span {
+    position: relative;
+    right: 15%;
+    font-size: 1.4EM;
+    font-family: "Heebo", sans-serif;
+    color: white;
+}
+
+.seemoreplans img {
+    position: relative;
+    z-index: 16;
+    bottom: 1.9EM;
+    left: 53.5%;
+}
+
+/*PLAN*/
