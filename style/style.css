@@ -754,11 +754,11 @@ header {
 
 /*DOCTORS*/
 
-.ourdoctors{
+.ourdoctors {
     position: relative;
 }
 
-.ourdoc{
+.ourdoc {
     position: absolute;
     top: 5%;
     left: 44%;
@@ -778,7 +778,8 @@ header {
     font-weight: bold;
     font-family: "Heebo", sans-serif;
 }
-.doctorstop .toptext pre{
+
+.doctorstop .toptext pre {
     position: relative;
     top: 4.6EM;
     left: 40%;
@@ -790,14 +791,19 @@ header {
 }
 
 
-.doctor1 , .doctor2 , .doctor3 , .doctor4 , .doctor5 , .doctor6{
+.doctor1,
+.doctor2,
+.doctor3,
+.doctor4,
+.doctor5,
+.doctor6 {
     width: 320px;
     height: 425px;
     background: #F5F8FA;
     border-radius: 2EM;
-} 
+}
 
-.docrow1{
+.docrow1 {
     position: relative;
     top: 14EM;
     display: flex;
@@ -806,7 +812,7 @@ header {
 
 }
 
-.docrow2{
+.docrow2 {
     position: relative;
     top: 15.5EM;
     display: flex;
@@ -814,13 +820,13 @@ header {
     gap: 2EM;
 }
 
-.doctors img{
+.doctors img {
     position: relative;
     left: 3.5EM;
     width: 60%;
 }
 
-.doctorname p{
+.doctorname p {
     position: relative;
     left: 22%;
     font-size: 1.6EM;
@@ -829,7 +835,7 @@ header {
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-.lastname p{
+.lastname p {
     position: relative;
     top: 0.8EM;
     left: 34%;
@@ -837,7 +843,7 @@ header {
     color: #FF6F61;
 }
 
-.dicription pre{
+.dicription pre {
     position: relative;
     top: 2EM;
     left: 9%;
@@ -846,7 +852,8 @@ header {
     font-size: 1EM;
 }
 
-.doctor1 img, .doctor2 img{
+.doctor1 img,
+.doctor2 img {
     width: 74%;
 }
 
@@ -881,13 +888,13 @@ header {
 
 /*LABO MAN*/
 
-.laboman img{
+.laboman img {
     position: relative;
     left: 2.7em;
-    width: 93%;  
+    width: 93%;
 }
 
-.labotext1 pre{
+.labotext1 pre {
     position: relative;
     bottom: 8.5em;
     left: 3em;
@@ -898,7 +905,7 @@ header {
     width: 20EM;
 }
 
-.labotext2{
+.labotext2 {
     position: relative;
     bottom: 20.5em;
     left: 7.6em;
@@ -926,7 +933,7 @@ header {
     color: #2677BC;
 }
 
-.labobutton img{
+.labobutton img {
     position: relative;
     bottom: 22.8em;
     left: 28.5%;
@@ -978,14 +985,16 @@ header {
     font-size: 0.9EM;
 }
 
-.joinroom , .vip , .vvip{
+.joinroom,
+.vip,
+.vvip {
     width: 380px;
     height: 760px;
     border: #E1E1E1 2px solid;
     border-radius: 2em;
 }
 
-.choices{
+.choices {
     position: relative;
     display: flex;
     justify-content: center;
@@ -993,7 +1002,7 @@ header {
     gap: 1EM;
 }
 
-.choicetop .tittle{
+.choicetop .tittle {
     position: relative;
     top: 1em;
     left: 1em;
@@ -1004,7 +1013,7 @@ header {
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-.choicetext{
+.choicetext {
     position: relative;
     left: 1.9EM;
     color: #5B5B5B;
@@ -1013,7 +1022,7 @@ header {
     width: 24EM;
 }
 
-.price{
+.price {
     position: relative;
     top: 0.4em;
     left: 0.4EM;
@@ -1023,7 +1032,7 @@ header {
 
 }
 
-.price sub{
+.price sub {
     position: relative;
     left: 0.3em;
     bottom: 0.3em;
@@ -1032,7 +1041,7 @@ header {
     font-size: 0.5EM;
 }
 
-.choiceline img{
+.choiceline img {
     position: relative;
     top: 2EM;
     left: 2.3em;
@@ -1040,7 +1049,7 @@ header {
     width: 80%;
 }
 
-.choicetext1{
+.choicetext1 {
     position: relative;
     top: 0.4em;
     left: 1.4EM;
@@ -1049,42 +1058,42 @@ header {
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-.vip .tittle span{
+.vip .tittle span {
     position: relative;
     left: 0.6em;
     color: #84D4F4;
     font-size: 0.8em;
 }
 
-.features{
+.features {
     position: relative;
     top: 2EM;
     left: 1.9em;
     margin-bottom: 5EM;
 }
 
-.features ul{
+.features ul {
     display: flex;
     flex-direction: column;
     gap: 2em;
     list-style: none;
 }
 
-.features img{
+.features img {
     position: relative;
     top: 0.21EM;
     width: 6%;
     margin-right: 0.5EM;
 }
 
-.features span{
+.features span {
     color: #5B5B5B;
     font-family: "Heebo", sans-serif;
     font-size: 1.4EM;
-    
+
 }
 
-.choicebutton1 button{
+.choicebutton1 button {
     position: relative;
     left: 1.45EM;
     background: transparent;
@@ -1093,7 +1102,7 @@ header {
     border-radius: 2em;
 }
 
-.downarrow img{
+.downarrow img {
     position: relative;
     top: 2.4em;
     left: 16.5EM;
@@ -1110,7 +1119,7 @@ header {
 }
 
 
-.choicebutton2 button{
+.choicebutton2 button {
     position: relative;
     left: 1.45EM;
     background: #FF6F61;
@@ -1119,7 +1128,7 @@ header {
     border: transparent;
 }
 
-.versarrow img{
+.versarrow img {
     position: relative;
     z-index: 13;
     top: 2.4em;
@@ -1136,7 +1145,7 @@ header {
     font-family: "Heebo", sans-serif;
 }
 
-.or{
+.or {
     position: relative;
     color: #5B5B5B;
     top: 0.6em;
@@ -1177,15 +1186,15 @@ header {
 
 /*APPOITMENT*/
 
-.appoitment{
+.appoitment {
     position: relative;
 }
 
-.appoitbg img{
+.appoitbg img {
     width: 100%;
 }
 
-.allapp{
+.allapp {
     position: absolute;
     top: 2em;
     left: 2EM;
@@ -1216,7 +1225,7 @@ header {
     font-family: "Heebo", sans-serif;
 }
 
-.appointext2 p{
+.appointext2 p {
     position: absolute;
     top: 4.5EM;
     left: 5%;
@@ -1227,34 +1236,35 @@ header {
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-.form ul{
+.form ul {
     list-style: none;
 }
 
-.form input , .form select{
+.form input,
+.form select {
     margin-top: 1em;
 }
 
-.column1 ul{
+.column1 ul {
     display: flex;
     flex-direction: column;
     gap: 2em;
     margin-bottom: 2em;
 }
 
-.column2 ul{
+.column2 ul {
     display: flex;
     flex-direction: column;
     gap: 2em;
     margin-bottom: 2em;
 }
 
-.appoitrow{
+.appoitrow {
     display: flex;
     gap: 2EM;
 }
 
- .form select{
+.form select {
     background: transparent;
     color: gray;
     border: 1px solid rgb(226, 224, 224);
@@ -1262,13 +1272,13 @@ header {
     padding: 13px 180px;
 }
 
-.form input::placeholder{
+.form input::placeholder {
     position: relative;
     left: 1.1em;
     font-size: 1.050em;
 }
 
-.form input{
+.form input {
     background: transparent;
     color: gray;
     border: 1px solid rgb(226, 224, 224);
@@ -1276,15 +1286,15 @@ header {
     padding: 13px 174px;
 }
 
-.form form{
+.form form {
     color: #000000;
     font-family: "Heebo", sans-serif;
 }
 
 .form {
     position: absolute;
-        top: 26%;
-        left: 5%;
+    top: 26%;
+    left: 5%;
 }
 
 
@@ -1302,14 +1312,14 @@ header {
     border-radius: 1em;
 }
 
-.appoitarrow img{
+.appoitarrow img {
     position: relative;
     z-index: 1;
     top: 3.6EM;
     left: 51%;
 }
 
-textarea{
+textarea {
     resize: none;
     background: transparent;
     border: 1px solid rgb(226, 224, 224);
@@ -1321,9 +1331,132 @@ textarea{
 }
 
 
-#appoitdate , #appoittime{
+#appoitdate,
+#appoittime {
     padding-right: 17EM;
     position: relative;
 }
 
 /*APPOITMENT*/
+
+/*FOOTER*/
+
+footer {
+    position: relative;
+}
+
+.footerbg img {
+    width: 100%;
+}
+
+.footerlogo img {
+    position: absolute;
+    top: 4EM;
+    left: 6EM;
+    width: 172px;
+
+}
+
+.footertop ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style: none;
+    font-family: "Heebo", sans-serif;
+}
+
+.footertop a {
+    text-decoration: none;
+    color: #3498DB;
+}
+
+.titleofmenu {
+    font-size: 1.3em;
+    color: #2677BC;
+    margin-bottom: 1EM;
+    font-family: "Heebo", sans-serif;
+
+}
+
+.footerlinks {
+    position: absolute;
+    top: 3.5em;
+    right: 6em;
+    display: flex;
+    gap: 3em;
+}
+
+.emailadressfo input {
+    position: absolute;
+    top: 25EM;
+    left: 7EM;
+    background: transparent;
+    border: 2px solid #84D4F4;
+    border-radius: 2EM;
+    width: 303px;
+    height: 50px;
+}
+
+.emailadressfo input::placeholder {
+    color: #3498DB;
+    position: relative;
+    left: 2EM;
+    font-family: "Heebo", sans-serif;
+}
+
+.footersubmit input {
+    position: absolute;
+    top: 25EM;
+    left: 31EM;
+    background: transparent;
+    border: 2px solid #84D4F4;
+    border-radius: 2EM;
+    width: 125px;
+    height: 50px;
+    Color: #3498DB;
+    font-family: "Heebo", sans-serif;
+}
+
+.footertext {
+    top: 29EM;
+    left: 7EM;
+    position: absolute;
+    color: #3498DB;
+    font-family: "Heebo", sans-serif;
+    font-size: 0.9EM;
+    width: 28EM;
+
+}
+
+.location {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    top: 22EM;
+    left: 43.4EM;
+}
+
+.loca p {
+    color: #2677BC;
+    font-size: 1.5em;
+    font-family: "Heebo", sans-serif;
+}
+
+.place p {
+    color: #2677BC;
+    font-family: "Heebo", sans-serif;
+}
+
+.adress p {
+    color: #969696;
+    width: 12EM;
+}
+
+.footerbottom {
+    position: absolute;
+    top: 33.8EM;
+    left: 8.4EM;
+}
+
+/*FOOTER*/
