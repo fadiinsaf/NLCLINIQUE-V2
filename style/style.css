@@ -1049,6 +1049,13 @@ header {
     font-family: "IBM Plex Sans", sans-serif;
 }
 
+.vip .tittle span{
+    position: relative;
+    left: 0.6em;
+    color: #84D4F4;
+    font-size: 0.8em;
+}
+
 .features{
     position: relative;
     top: 2EM;
@@ -1167,3 +1174,156 @@ header {
 }
 
 /*PLAN*/
+
+/*APPOITMENT*/
+
+.appoitment{
+    position: relative;
+}
+
+.appoitbg img{
+    width: 100%;
+}
+
+.allapp{
+    position: absolute;
+    top: 2em;
+    left: 2EM;
+    background: #ffffff;
+    border-radius: 2em;
+    width: 1200px;
+    height: 928px;
+}
+
+.appointext1 {
+    position: absolute;
+    top: 3EM;
+    left: 5%;
+    background: #5EE088;
+    border: 2px solid #2ECC71;
+    border-radius: 1em 1em 0em 1em;
+    padding: 1% 0%;
+    width: 190px;
+    height: 48px;
+}
+
+.appointext1 p {
+    position: relative;
+    left: 0.5em;
+    font-size: 0.9EM;
+    color: white;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+}
+
+.appointext2 p{
+    position: absolute;
+    top: 4.5EM;
+    left: 5%;
+    width: 26EM;
+    font-size: 2EM;
+    font-weight: bold;
+    color: #3498DB;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.form ul{
+    list-style: none;
+}
+
+.form input , .form select{
+    margin-top: 1em;
+}
+
+.column1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.column2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.appoitrow{
+    display: flex;
+    gap: 2EM;
+}
+
+ .form select{
+    background: transparent;
+    color: gray;
+    border: 1px solid rgb(226, 224, 224);
+    border-radius: 12px;
+    padding: 13px 180px;
+}
+
+.form input::placeholder{
+    position: relative;
+    left: 1.1em;
+    font-size: 1.050em;
+}
+
+.form input{
+    background: transparent;
+    color: gray;
+    border: 1px solid rgb(226, 224, 224);
+    border-radius: 12px;
+    padding: 13px 174px;
+}
+
+.form form{
+    color: #000000;
+    font-family: "Heebo", sans-serif;
+}
+
+.form {
+    position: absolute;
+        top: 26%;
+        left: 5%;
+}
+
+
+.submitbutton input {
+    position: relative;
+    top: 14%;
+    right: 1%;
+    color: white;
+    background: #FF6F61;
+    font-size: 1em;
+    font-family: "Heebo", sans-serif;
+    padding: 1.1% 1%;
+    border: 0px solid;
+    width: 1100px;
+    border-radius: 1em;
+}
+
+.appoitarrow img{
+    position: relative;
+    z-index: 1;
+    top: 3.6EM;
+    left: 51%;
+}
+
+textarea{
+    resize: none;
+    background: transparent;
+    border: 1px solid rgb(226, 224, 224);
+    border-radius: 12px;
+    width: 1100px;
+    height: 140px;
+    margin-top: 2em;
+
+}
+
+
+#appoitdate , #appoittime{
+    padding-right: 17EM;
+    position: relative;
+}
+
+/*APPOITMENT*/
