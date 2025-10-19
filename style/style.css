@@ -64,6 +64,7 @@ header {
     width: 100%;
     position: relative;
     z-index: -99;
+    margin-bottom: 3em;
 }
 
 .redpoint img {
@@ -1460,3 +1461,53 @@ footer {
 }
 
 /*FOOTER*/
+
+/*MULTI PAGES*/
+
+.quieston p{
+    position: absolute;
+    z-index: 12;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    left: 20%;
+    top: 35%;
+    font-size: 250%;
+    letter-spacing: 4PX;
+}
+
+#aboutquis{
+    left: 36%;
+}
+
+.redpointa{
+    position: absolute;
+    z-index: 16;
+    bottom: 87%;
+    left: 39.5%;
+}
+
+.redpointd{
+    position: absolute;
+    z-index: 16;
+    bottom: 87%;
+    left: 45.3%;
+}
+
+.redpoints{
+    position: absolute;
+    z-index: 16;
+    bottom: 87%;
+    left: 52%;
+}
+
+.redpointc{
+    position: absolute;
+    z-index: 16;
+    bottom: 87%;
+    left: 59%;
+}
+
+/*MULTI PAGES*/
+
+
+
